@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+ </head>
+<body>
+	<nav>
+		<label class="logo">Portfolio</label>
+		<u1>
+			<li><a href="index.html" target="_self">Home</a></li>
+			<li><a href="about.html" target="_self">About</a></li>
+			<li><a href="projects.html" target="_self">Projects</a></li>
+			<li><a class="active" href="contact.html" target="_self">Contact</a></li>
+		</u1>
+	</nav>
+	
+		
+	<div class="container">
+	 <span class="big-circle"></span>
+	 <img src>
+		<div class="form">
+			<div class="contact-info">
+				<h3 class="title">Let's get in touch</h3>
+				<p class="texts">If you need more information:</p>
+			<div class="infos">
+			 <div class="information">
+			  <img src="adrress.png" class="icon" alt="">
+			  <p>No.3 Jalan Permai 6, Taman Air Hitam</p>
+			 </div>
+			 
+			 <div class="information">
+			  <img src="email.jpg" class="icon" alt="">
+			  <p>thinekaarumugam0@gmail.com</p>
+			 </div>
+			 
+			 <div class="information">
+			  <img src="phone.png" class="icon" alt="">
+			  <p>+60123456789</p>
+			 </div>
+			 
+			</div>
+			
+			<div class="social-media">
+				<p>Connect with us :</p>
+				<div class="social-icon">
+					<a href="https://www.facebook.com/login.php/">
+					<img src="https://1.bp.blogspot.com/-S8HTBQqmfcs/XN0ACIRD9PI/AAAAAAAAAlo/FLhccuLdMfIFLhocRjWqsr9cVGdTN_8sgCPcBGAYYCw/s1600/f_logo_RGB-Blue_1024.png" width="20">
+					</a>
+					
+					<a href="https://twitter.com/i/flow/login">
+					<img src="https://www.pngkey.com/png/full/2-27646_twitter-logo-png-transparent-background-logo-twitter-png.png" width="20">
+					</a>
+					
+					<a href="https://www.instagram.com/">
+					<img src="http://clipart-library.com/images_k/instagram-png-transparent/instagram-png-transparent-22.png" width="20">
+					</a>
+					
+					<a href="https://www.linkedin.com/login">
+					<img src="https://www.kingtree.eu/wp-content/uploads/2017/10/Linkedin_circle.svg_.png" width="20">
+					</a>
+				</div>
+			</div>
+			
+			</div>
+			
+			<div class="contact-form">
+			<span class="circle one"></span>
+			<span class="circle two"></span>
+			
+			<form action="index.html" onsubmit='return validate();'>
+				<h3 class="title">Contact us</h3>
+				<div class="input-container">
+				<input type="text" name="name" class="input" />
+				<label for="">Username</label>
+				<span>Username</span>
+				</div>
+				
+				<div class="input-container">
+				<input type="email" name="email" class="input" />
+				<label for="">Email</label>
+				<span>Email</span>
+				</div>
+				
+				<div class="input-container">
+				<input type="tell" name="phone" class="input" />
+				<label for="">Phone</label>
+				<span>Phone<span>
+				</div>
+				
+				<div class="input-container textarea">
+				<textarea name="message" class="input"></textarea>
+				<label for="">Message</label>
+				<span>Message</span>
+				</div>
+				<input type="submit" value="Send" class="btn" />
+			</form>
+		</div>
+	
+	</div>	
+	</div>
+	
+	<script src="script.js"></script>
+
+</body>
+</html>
